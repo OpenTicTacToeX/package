@@ -1,0 +1,10 @@
+Package: opentictactoex
+Priority: optional
+Section: game
+Maintainer: Can202 <mgoopazo@gmail.com>
+Architecture: i386
+Version: 0.5
+Depends:
+Description: a simple Tic Tac Toe to 2 Players
+ a simple Tic Tac Toe to 2 Players
+

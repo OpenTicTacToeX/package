@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=OpenTicTacToeX
+Exec=opentictactoex
+Icon=/usr/share/opentictactoex/icon.png
+Type=Application
+Categories=Game
