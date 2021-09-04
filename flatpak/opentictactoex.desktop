@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=OpenTicTacToeX
+Exec=opentictactoex
+Icon=io.github.opentictactoex
+Type=Application
+Categories=Game

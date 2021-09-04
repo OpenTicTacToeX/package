@@ -1,0 +1,23 @@
+app-id: io.github.opentictactoex
+runtime: org.gnome.Platform
+runtime-version: '40'
+sdk: org.gnome.Sdk
+command: opentictactoex
+modules:
+  - name: opentictactoex
+    buildsystem: simple
+    build-commands:
+      - install -D opentictactoex /app/bin/opentictactoex
+      - install -D opentictactoex.png /app/share/icons/hicolor/256x256/apps/io.github.opentictactoex.png
+      - install -D opentictactoex.desktop /app/share/applications/io.github.opentictactoex.desktop
+    sources:
+      - type: file
+        path: opentictactoex
+      - type: file
+        path: opentictactoex.png
+      - type: file
+        path: opentictactoex.desktop
+finish-args:
+  - --share=ipc
+  - --socket=x11
+  - --socket=pulseaudio
